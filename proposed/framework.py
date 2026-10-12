@@ -17,14 +17,14 @@ class TCNEncoder(nn.Module):
 
 
 class LFM(nn.Module):
-    """Local frequency module: spectra of local windows -> 8-d local representation."""
+    """Local Frequency Module (LFM): spectra of local windows -> 8-d local representation."""
 
     def forward(self, x):
         raise NotImplementedError(RELEASE_NOTE)
 
 
 class GDFM(nn.Module):
-    """Global daily frequency module: whole-day spectral bands -> 8-d global representation."""
+    """Global Dynamics Feature Module (GDFM): three whole-day spectral bands with daily mean and SD -> 8-d global representation."""
 
     def forward(self, x):
         raise NotImplementedError(RELEASE_NOTE)

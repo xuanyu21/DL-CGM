@@ -46,7 +46,7 @@ All methods used the same patients and daily CGM segments on the 15-minute grid 
 
 **Adaptations of the CGM-specific methods**
 
-- **GSP**: the published rate threshold of 0.06 mmol/L/min was retained; 95 within-day transitions were computed per eligible day. The manuscript follows the original publication and normalizes the pattern frequencies column-wise by min–max scaling.
+- **GSP**: the published rate threshold of 0.06 mmol/L/min was retained; 95 within-day transitions were computed per eligible day. Following the original publication, the pattern frequencies were normalized column-wise by min–max scaling.
 - GSP and GRI were originally described for 5-minute data (288 readings per day); GSP, GRI and Multilevel Clustering were run on the common 15-minute grid.
 
 **CGM representation models**
